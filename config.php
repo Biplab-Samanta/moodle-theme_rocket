@@ -27,7 +27,7 @@ $THEME->name = 'rocket';
 // }else {
 //     $THEME->parents = array('base');
 // }
-$THEME->parents = ['boost'];
+$THEME->parents = ['classic'];
 $THEME->haseditswitch = false;
 $THEME->sheets = array(
     'rocket_layout',   /* Must come first: Page layout */
@@ -40,12 +40,12 @@ $THEME->sheets = array(
     'rocket_settings',
     'rtl'
 );
-$THEME->parents_exclude_sheets = array(
-    'base' => array(
-        'pagelayout',
-        'dock'
-    ),
-);
+// $THEME->parents_exclude_sheets = array(
+//     'base' => array(
+//         'pagelayout',
+//         'dock'
+//     ),
+// );
 $THEME->editor_sheets = array('editor');
 $THEME->layouts = array(
     // Most backwards compatible layout without the blocks - this is the layout used by default.
